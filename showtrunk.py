@@ -4,6 +4,8 @@ import os, random, string
 import string
 from itertools import chain
 import json
+import SoftLayer.API
+from pprint import pprint as pp
 
 ## Input ID and API Key Below
 
@@ -20,9 +22,6 @@ client = SoftLayer.Client(
     username= username,
     api_key = apiKey,
     )
-
-import SoftLayer.API
-from pprint import pprint as pp
 
 
 ###############################################################
