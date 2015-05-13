@@ -1,4 +1,5 @@
-# Show Trunk Ports
+#Script to query VLAN tagging on SL BM instances
+
 import SoftLayer
 import os, random, string
 import string
